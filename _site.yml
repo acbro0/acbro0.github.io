@@ -13,8 +13,4 @@ navbar:
 output:
   html_document:
     theme: flatly
-    includes:
-      in_header: [include_head.html, google_analytics.html]
-      before_body: include_header.html
-      after_body: include_footer.html
     css: style.css
