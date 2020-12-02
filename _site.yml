@@ -1,0 +1,20 @@
+name: "Brown-Sears-website"
+output_dir: "."
+navbar:
+  title: "Brown & Sears Actuarial Consulting"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Contact"
+      href: about.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<lexi@brownsears.com>
+output:
+  html_document:
+    theme: flatly
+    includes:
+      in_header: [include_head.html, google_analytics.html]
+      before_body: include_header.html
+      after_body: include_footer.html
+    css: style.css
